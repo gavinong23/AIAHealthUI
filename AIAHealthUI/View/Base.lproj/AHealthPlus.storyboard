@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -88,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y40-Cb-4IY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="45"/>
+            <point key="canvasLocation" x="1350" y="-307"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="22l-sv-XqD">
@@ -115,12 +114,14 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="OEi-Bo-c4C"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="c4Y-KX-KDv">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="4E1-aK-s0h" kind="relationship" relationship="viewControllers" id="dDC-sN-sq6"/>
                         <segue destination="TaH-qr-59o" kind="relationship" relationship="viewControllers" id="aQc-G8-IeX"/>
+                        <segue destination="Xey-yC-QPj" kind="relationship" relationship="viewControllers" id="DH6-RQ-DfP"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b65-xu-yL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -139,24 +140,18 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="887"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P3f-gh-Wpb">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="862"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                         <subviews>
-                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QfJ-Em-aFX">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="862"/>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="QfJ-Em-aFX">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AQ9-R0-eLP" customClass="MainContentHealthWalletView" customModule="AIAHealthUI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="180"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
                                                         <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="AQ9-R0-eLP" secondAttribute="height" multiplier="25:12" priority="999" id="oXS-4k-gly"/>
-                                                        </constraints>
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="77Z-Or-nxY" customClass="UsageHealthWalletView" customModule="AIAHealthUI" customModuleProvider="target">
-                                                        <rect key="frame" x="0.0" y="200" width="375" height="662"/>
+                                                        <rect key="frame" x="0.0" y="70" width="375" height="50"/>
                                                         <color key="backgroundColor" red="0.3564640832" green="1" blue="0.72072958649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" secondItem="77Z-Or-nxY" secondAttribute="height" multiplier="375:662" priority="999" id="hEG-jk-8ey"/>
-                                                        </constraints>
                                                     </view>
                                                 </subviews>
                                                 <constraints>
@@ -203,7 +198,69 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puS-Mv-aRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1349.5999999999999" y="867.16641679160432"/>
+            <point key="canvasLocation" x="1350" y="492"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="LoS-Jc-h9g">
+            <objects>
+                <viewController id="Xey-yC-QPj" customClass="HealthRewardViewController" customModule="AIAHealthUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="2fb-cc-yRA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6tZ-7R-E1Z">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVC-54-ArR">
+                                        <rect key="frame" x="0.0" y="0.0" width="379" height="551"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="cNX-eK-Yuj">
+                                                <rect key="frame" x="0.0" y="0.0" width="379" height="551"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odL-3x-BUM">
+                                                        <rect key="frame" x="0.0" y="0.0" width="379" height="228"/>
+                                                        <color key="backgroundColor" red="0.3564640832" green="1" blue="0.72072958649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </view>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-Ws-pFs">
+                                                        <rect key="frame" x="0.0" y="228" width="379" height="323"/>
+                                                        <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </view>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="cNX-eK-Yuj" firstAttribute="top" secondItem="lVC-54-ArR" secondAttribute="top" id="Mj8-m7-XEh"/>
+                                            <constraint firstAttribute="trailing" secondItem="cNX-eK-Yuj" secondAttribute="trailing" id="X7G-rx-QgJ"/>
+                                            <constraint firstAttribute="bottom" secondItem="cNX-eK-Yuj" secondAttribute="bottom" id="YOS-3A-DRA"/>
+                                            <constraint firstItem="cNX-eK-Yuj" firstAttribute="leading" secondItem="lVC-54-ArR" secondAttribute="leading" id="zcD-5c-aIF"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="lVC-54-ArR" secondAttribute="bottom" id="2hc-09-8yd"/>
+                                    <constraint firstAttribute="trailing" secondItem="lVC-54-ArR" secondAttribute="trailing" id="4d1-7B-Dqn"/>
+                                    <constraint firstItem="lVC-54-ArR" firstAttribute="height" secondItem="6tZ-7R-E1Z" secondAttribute="height" priority="250" id="AlO-og-Uf6"/>
+                                    <constraint firstItem="lVC-54-ArR" firstAttribute="leading" secondItem="6tZ-7R-E1Z" secondAttribute="leading" id="CZ3-Mu-IfJ"/>
+                                    <constraint firstItem="lVC-54-ArR" firstAttribute="width" secondItem="6tZ-7R-E1Z" secondAttribute="width" priority="250" id="Has-8A-Z4l"/>
+                                    <constraint firstItem="lVC-54-ArR" firstAttribute="top" secondItem="6tZ-7R-E1Z" secondAttribute="top" id="j7X-Ya-WoA"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6tZ-7R-E1Z" firstAttribute="top" secondItem="cbi-1g-P3T" secondAttribute="top" id="108-YP-umH"/>
+                            <constraint firstItem="cbi-1g-P3T" firstAttribute="bottom" secondItem="6tZ-7R-E1Z" secondAttribute="bottom" id="ESv-VX-LV7"/>
+                            <constraint firstItem="6tZ-7R-E1Z" firstAttribute="leading" secondItem="cbi-1g-P3T" secondAttribute="leading" id="kUE-Ur-gVp"/>
+                            <constraint firstItem="cbi-1g-P3T" firstAttribute="trailing" secondItem="6tZ-7R-E1Z" secondAttribute="trailing" id="nnR-ju-l4v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="cbi-1g-P3T"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="pYW-32-Weo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WGo-oA-sjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1349.5999999999999" y="1386.656671664168"/>
         </scene>
     </scenes>
 </document>
