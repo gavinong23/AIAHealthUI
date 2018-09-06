@@ -31,6 +31,11 @@
 		33CB388C213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */; };
 		33CB388F213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */; };
 		33CB3890213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */; };
+		33EF4A1A2140C86F0010A11B /* HealthWalletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4A192140C86F0010A11B /* HealthWalletViewController.swift */; };
+		33EF4A1F2140C9930010A11B /* MainContentHealthWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4A1E2140C9930010A11B /* MainContentHealthWalletView.swift */; };
+		33EF4A212140C9C40010A11B /* MainContentHealthWalletView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EF4A202140C9C40010A11B /* MainContentHealthWalletView.xib */; };
+		33EF4A232140D3510010A11B /* UsageHealthWalletView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33EF4A222140D3510010A11B /* UsageHealthWalletView.xib */; };
+		33EF4A252140D3AF0010A11B /* UsageHealthWalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33EF4A242140D3AF0010A11B /* UsageHealthWalletView.swift */; };
 		663986FF87ED6FC986CBEB88 /* Pods_AIAHealthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B3B493D0C5971B06F3227 /* Pods_AIAHealthUI.framework */; };
 		C03B88873939B08473AF2EE1 /* Pods_AIAHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88424F2C8782EA0A8506918E /* Pods_AIAHealthUITests.framework */; };
 /* End PBXBuildFile section */
@@ -84,6 +89,11 @@
 		33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableSectionPlanAndBenefitsTableViewCell.xib; sourceTree = "<group>"; };
 		33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedPlanAndBenefitsTableViewCell.swift; sourceTree = "<group>"; };
 		33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandedPlanAndBenefitsTableViewCell.xib; sourceTree = "<group>"; };
+		33EF4A192140C86F0010A11B /* HealthWalletViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthWalletViewController.swift; sourceTree = "<group>"; };
+		33EF4A1E2140C9930010A11B /* MainContentHealthWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentHealthWalletView.swift; sourceTree = "<group>"; };
+		33EF4A202140C9C40010A11B /* MainContentHealthWalletView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContentHealthWalletView.xib; sourceTree = "<group>"; };
+		33EF4A222140D3510010A11B /* UsageHealthWalletView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UsageHealthWalletView.xib; sourceTree = "<group>"; };
+		33EF4A242140D3AF0010A11B /* UsageHealthWalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageHealthWalletView.swift; sourceTree = "<group>"; };
 		397FF1F5932131E4DEA60CF2 /* Pods-AIAHealthUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUI/Pods-AIAHealthUI.debug.xcconfig"; sourceTree = "<group>"; };
 		77D5FB78A61406C4A261734D /* Pods-AIAHealthUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUIUITests/Pods-AIAHealthUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		7A74657F313A5A59E6D87EC2 /* Pods_AIAHealthUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIAHealthUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -206,6 +216,7 @@
 			children = (
 				33CB383E213F75E500443B09 /* Common */,
 				3325A7E3213E1A210024D770 /* AHealthPlus */,
+				3325A7B4213E14790024D770 /* AHealthPlus.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -224,11 +235,9 @@
 			isa = PBXGroup;
 			children = (
 				33CB3886213F9BD700443B09 /* Cell */,
-				3325A7B4213E14790024D770 /* AHealthPlus.storyboard */,
 				3325A7B2213E14790024D770 /* HomeContentPersonalViewController.swift */,
-				3325A7E5213E1C620024D770 /* PlanAndBenefitsViewController.swift */,
-				3325A7E7213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift */,
-				3325A7E9213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib */,
+				33EF4A162140C7510010A11B /* PlanAndBenefits */,
+				33EF4A152140C70A0010A11B /* HealthWallet */,
 			);
 			path = AHealthPlus;
 			sourceTree = "<group>";
@@ -244,8 +253,8 @@
 		33CB383F213F76B200443B09 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				33CB3842213F77BC00443B09 /* BenefitsView.swift */,
-				33CB3844213F77E100443B09 /* BenefitsView.xib */,
+				33EF4A1D2140C9300010A11B /* HealthWallet */,
+				33EF4A1B2140C8F80010A11B /* PlanAndBenefits */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,12 +279,58 @@
 		33CB3886213F9BD700443B09 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
+				33EF4A1C2140C90C0010A11B /* PlanAndBenefits */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		33EF4A152140C70A0010A11B /* HealthWallet */ = {
+			isa = PBXGroup;
+			children = (
+				33EF4A192140C86F0010A11B /* HealthWalletViewController.swift */,
+			);
+			path = HealthWallet;
+			sourceTree = "<group>";
+		};
+		33EF4A162140C7510010A11B /* PlanAndBenefits */ = {
+			isa = PBXGroup;
+			children = (
+				3325A7E5213E1C620024D770 /* PlanAndBenefitsViewController.swift */,
+			);
+			path = PlanAndBenefits;
+			sourceTree = "<group>";
+		};
+		33EF4A1B2140C8F80010A11B /* PlanAndBenefits */ = {
+			isa = PBXGroup;
+			children = (
+				3325A7E7213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift */,
+				3325A7E9213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib */,
+				33CB3842213F77BC00443B09 /* BenefitsView.swift */,
+				33CB3844213F77E100443B09 /* BenefitsView.xib */,
+			);
+			path = PlanAndBenefits;
+			sourceTree = "<group>";
+		};
+		33EF4A1C2140C90C0010A11B /* PlanAndBenefits */ = {
+			isa = PBXGroup;
+			children = (
 				33CB3889213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift */,
 				33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */,
 				33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */,
 				33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */,
 			);
-			path = Cell;
+			path = PlanAndBenefits;
+			sourceTree = "<group>";
+		};
+		33EF4A1D2140C9300010A11B /* HealthWallet */ = {
+			isa = PBXGroup;
+			children = (
+				33EF4A1E2140C9930010A11B /* MainContentHealthWalletView.swift */,
+				33EF4A202140C9C40010A11B /* MainContentHealthWalletView.xib */,
+				33EF4A242140D3AF0010A11B /* UsageHealthWalletView.swift */,
+				33EF4A222140D3510010A11B /* UsageHealthWalletView.xib */,
+			);
+			path = HealthWallet;
 			sourceTree = "<group>";
 		};
 		96333B103FEEECD3018680CE /* Frameworks */ = {
@@ -412,12 +467,14 @@
 			files = (
 				3325A7EA213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib in Resources */,
 				33CB3839213F697800443B09 /* main.strings in Resources */,
+				33EF4A212140C9C40010A11B /* MainContentHealthWalletView.xib in Resources */,
 				33CB388C213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib in Resources */,
 				33CB3890213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib in Resources */,
 				3325A7BB213E147B0024D770 /* LaunchScreen.storyboard in Resources */,
 				33CB3845213F77E100443B09 /* BenefitsView.xib in Resources */,
 				3325A7B8213E147B0024D770 /* Assets.xcassets in Resources */,
 				3325A7B6213E14790024D770 /* AHealthPlus.storyboard in Resources */,
+				33EF4A232140D3510010A11B /* UsageHealthWalletView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,10 +597,13 @@
 			files = (
 				3325A7E8213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift in Sources */,
 				33CB3843213F77BC00443B09 /* BenefitsView.swift in Sources */,
+				33EF4A1A2140C86F0010A11B /* HealthWalletViewController.swift in Sources */,
 				33CB383B213F70B700443B09 /* AHealthPlusViewModel.swift in Sources */,
 				33CB383D213F70F000443B09 /* PlanAndBenefitsViewModel.swift in Sources */,
+				33EF4A252140D3AF0010A11B /* UsageHealthWalletView.swift in Sources */,
 				3325A7B3213E14790024D770 /* HomeContentPersonalViewController.swift in Sources */,
 				33CB388B213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift in Sources */,
+				33EF4A1F2140C9930010A11B /* MainContentHealthWalletView.swift in Sources */,
 				3325A7EC213E485D0024D770 /* R.generated.swift in Sources */,
 				33CB388F213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift in Sources */,
 				33CB3849213F7B0D00443B09 /* UIViewExtension.swift in Sources */,
