@@ -19,9 +19,6 @@ class ExpandableSectionPlanAndBenefitsTableViewCell: ExpandableCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        
-
-        
     }
 
   

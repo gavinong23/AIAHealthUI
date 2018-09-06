@@ -20,68 +20,80 @@
             <rect key="frame" x="0.0" y="0.0" width="421" height="255"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oUd-mP-HRs">
-                    <rect key="frame" x="0.0" y="0.0" width="421" height="255"/>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3fD-4D-PFU">
+                    <rect key="frame" x="20" y="8" width="381" height="239"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="7mm-9g-Zb5">
-                            <rect key="frame" x="0.0" y="0.0" width="421" height="255"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="oUd-mP-HRs">
+                            <rect key="frame" x="0.0" y="0.0" width="381" height="239"/>
                             <subviews>
-                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tbh-oq-8KY">
-                                    <rect key="frame" x="0.0" y="0.0" width="421" height="30"/>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="7mm-9g-Zb5">
+                                    <rect key="frame" x="0.0" y="0.0" width="381" height="239"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Wallet" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pht-e7-9jN">
-                                            <rect key="frame" x="0.0" y="0.0" width="421" height="30"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="PcI-YD-LLR">
-                                    <rect key="frame" x="0.0" y="70" width="421" height="104"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Total Amount" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggD-yt-Q5D">
-                                            <rect key="frame" x="0.0" y="0.0" width="114.5" height="24"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="RM 0" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9o-Pq-gE0">
-                                            <rect key="frame" x="0.0" y="24" width="49" height="80"/>
-                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                    </subviews>
-                                </stackView>
-                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-PA-0pk">
-                                    <rect key="frame" x="0.0" y="214" width="421" height="41"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money will be credited to Health Wallet at the end of the year provided no claim is made in that year." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHq-gp-TFC">
-                                            <rect key="frame" x="0.0" y="0.0" width="421" height="41"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
+                                        <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Tbh-oq-8KY">
+                                            <rect key="frame" x="0.0" y="0.0" width="381" height="30"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Health Wallet" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pht-e7-9jN">
+                                                    <rect key="frame" x="0.0" y="0.0" width="381" height="30"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="PcI-YD-LLR">
+                                            <rect key="frame" x="0.0" y="70" width="381" height="88"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Total Amount" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ggD-yt-Q5D">
+                                                    <rect key="frame" x="0.0" y="0.0" width="114.5" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="RM 0" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L9o-Pq-gE0">
+                                                    <rect key="frame" x="0.0" y="24" width="49" height="64"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="h4X-PA-0pk">
+                                            <rect key="frame" x="0.0" y="198" width="381" height="41"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Money will be credited to Health Wallet at the end of the year provided no claim is made in that year." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHq-gp-TFC">
+                                                    <rect key="frame" x="0.0" y="0.0" width="381" height="41"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
                                     </subviews>
                                 </stackView>
                             </subviews>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="7mm-9g-Zb5" secondAttribute="trailing" id="6Cb-zi-056"/>
+                                <constraint firstAttribute="bottom" secondItem="7mm-9g-Zb5" secondAttribute="bottom" id="6uC-3i-XbU"/>
+                                <constraint firstItem="7mm-9g-Zb5" firstAttribute="leading" secondItem="oUd-mP-HRs" secondAttribute="leading" id="DxQ-ad-HD5"/>
+                                <constraint firstItem="7mm-9g-Zb5" firstAttribute="top" secondItem="oUd-mP-HRs" secondAttribute="top" id="Kqk-g2-6MM"/>
+                            </constraints>
                         </stackView>
                     </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
-                        <constraint firstAttribute="trailing" secondItem="7mm-9g-Zb5" secondAttribute="trailing" id="6Cb-zi-056"/>
-                        <constraint firstAttribute="bottom" secondItem="7mm-9g-Zb5" secondAttribute="bottom" id="6uC-3i-XbU"/>
-                        <constraint firstItem="7mm-9g-Zb5" firstAttribute="leading" secondItem="oUd-mP-HRs" secondAttribute="leading" id="DxQ-ad-HD5"/>
-                        <constraint firstItem="7mm-9g-Zb5" firstAttribute="top" secondItem="oUd-mP-HRs" secondAttribute="top" id="Kqk-g2-6MM"/>
+                        <constraint firstItem="oUd-mP-HRs" firstAttribute="leading" secondItem="3fD-4D-PFU" secondAttribute="leading" id="4TE-NL-gJc"/>
+                        <constraint firstAttribute="bottom" secondItem="oUd-mP-HRs" secondAttribute="bottom" id="BPw-ge-axg"/>
+                        <constraint firstItem="oUd-mP-HRs" firstAttribute="top" secondItem="3fD-4D-PFU" secondAttribute="top" id="PG8-ZB-f7E"/>
+                        <constraint firstAttribute="trailing" secondItem="oUd-mP-HRs" secondAttribute="trailing" id="xab-hN-vs1"/>
                     </constraints>
-                </stackView>
+                </view>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="oUd-mP-HRs" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Fiw-f2-tGc"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="oUd-mP-HRs" secondAttribute="bottom" id="TcZ-5n-cll"/>
-                <constraint firstItem="oUd-mP-HRs" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="XmF-gv-foG"/>
-                <constraint firstItem="oUd-mP-HRs" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="qdz-SY-PBd"/>
+                <constraint firstAttribute="trailing" secondItem="3fD-4D-PFU" secondAttribute="trailing" constant="20" id="3Sr-kF-hPr"/>
+                <constraint firstItem="3fD-4D-PFU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="blt-wJ-dBd"/>
+                <constraint firstAttribute="bottom" secondItem="3fD-4D-PFU" secondAttribute="bottom" constant="8" id="eUA-dl-0di"/>
+                <constraint firstItem="3fD-4D-PFU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="l8x-P7-eHo"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

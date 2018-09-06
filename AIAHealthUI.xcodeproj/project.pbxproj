@@ -24,6 +24,8 @@
 		334F781A2141181C0069FBFF /* VitalityStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F78192141181C0069FBFF /* VitalityStatusView.swift */; };
 		334F781C214121B90069FBFF /* BenefitsOfHealthRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F781B214121B90069FBFF /* BenefitsOfHealthRewardView.swift */; };
 		334F781E214121D00069FBFF /* BenefitsOfHealthRewardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334F781D214121D00069FBFF /* BenefitsOfHealthRewardView.xib */; };
+		334F782021412B140069FBFF /* VitalityStatusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334F781F21412B140069FBFF /* VitalityStatusBarView.swift */; };
+		334F782221412B290069FBFF /* VitalityStatusBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 334F782121412B290069FBFF /* VitalityStatusBarView.xib */; };
 		33AF8D032140FF8F00DE5F6B /* MainContentHealthRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF8D022140FF8F00DE5F6B /* MainContentHealthRewardView.swift */; };
 		33AF8D052140FFA300DE5F6B /* MainContentHealthRewardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33AF8D042140FFA300DE5F6B /* MainContentHealthRewardView.xib */; };
 		33AF8D09214100FA00DE5F6B /* HeaderHealthRewardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33AF8D08214100FA00DE5F6B /* HeaderHealthRewardView.swift */; };
@@ -91,6 +93,8 @@
 		334F78192141181C0069FBFF /* VitalityStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalityStatusView.swift; sourceTree = "<group>"; };
 		334F781B214121B90069FBFF /* BenefitsOfHealthRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsOfHealthRewardView.swift; sourceTree = "<group>"; };
 		334F781D214121D00069FBFF /* BenefitsOfHealthRewardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenefitsOfHealthRewardView.xib; sourceTree = "<group>"; };
+		334F781F21412B140069FBFF /* VitalityStatusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitalityStatusBarView.swift; sourceTree = "<group>"; };
+		334F782121412B290069FBFF /* VitalityStatusBarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VitalityStatusBarView.xib; sourceTree = "<group>"; };
 		33AF8D022140FF8F00DE5F6B /* MainContentHealthRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentHealthRewardView.swift; sourceTree = "<group>"; };
 		33AF8D042140FFA300DE5F6B /* MainContentHealthRewardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContentHealthRewardView.xib; sourceTree = "<group>"; };
 		33AF8D08214100FA00DE5F6B /* HeaderHealthRewardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderHealthRewardView.swift; sourceTree = "<group>"; };
@@ -272,6 +276,8 @@
 				334F7817214117AA0069FBFF /* VitalityStatusView.xib */,
 				334F781B214121B90069FBFF /* BenefitsOfHealthRewardView.swift */,
 				334F781D214121D00069FBFF /* BenefitsOfHealthRewardView.xib */,
+				334F781F21412B140069FBFF /* VitalityStatusBarView.swift */,
+				334F782121412B290069FBFF /* VitalityStatusBarView.xib */,
 			);
 			path = HealthReward;
 			sourceTree = "<group>";
@@ -522,6 +528,7 @@
 				3325A7B6213E14790024D770 /* AHealthPlus.storyboard in Resources */,
 				33EF4A232140D3510010A11B /* UsageHealthWalletView.xib in Resources */,
 				33AF8D052140FFA300DE5F6B /* MainContentHealthRewardView.xib in Resources */,
+				334F782221412B290069FBFF /* VitalityStatusBarView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -654,6 +661,7 @@
 				3325A7B3213E14790024D770 /* HomeContentPersonalViewController.swift in Sources */,
 				33CB388B213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift in Sources */,
 				33EF4A1F2140C9930010A11B /* MainContentHealthWalletView.swift in Sources */,
+				334F782021412B140069FBFF /* VitalityStatusBarView.swift in Sources */,
 				3325A7EC213E485D0024D770 /* R.generated.swift in Sources */,
 				33AF8D032140FF8F00DE5F6B /* MainContentHealthRewardView.swift in Sources */,
 				33CB388F213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift in Sources */,

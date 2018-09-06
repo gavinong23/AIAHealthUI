@@ -21,23 +21,32 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7Nh-d5-RHt">
-                    <rect key="frame" x="0.0" y="0.0" width="367" height="363"/>
+                    <rect key="frame" x="20" y="10" width="327" height="343"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="d5J-IN-tdx">
-                            <rect key="frame" x="0.0" y="0.0" width="367" height="363"/>
+                            <rect key="frame" x="0.0" y="0.0" width="327" height="343"/>
                             <subviews>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="82E-4C-tcO" customClass="HeaderHealthRewardView" customModule="AIAHealthUI" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="367" height="121"/>
-                                    <color key="backgroundColor" red="0.3564640832" green="1" blue="0.72072958649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="327" height="114"/>
                                 </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yzh-En-HUw" customClass="VitalityStatusView" customModule="AIAHealthUI" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="121" width="367" height="121"/>
-                                    <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </view>
-                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-a3-jwy">
-                                    <rect key="frame" x="0.0" y="242" width="367" height="121"/>
-                                    <color key="backgroundColor" red="1" green="0.98337477669999995" blue="0.65089731669999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </view>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RyR-HH-SP0">
+                                    <rect key="frame" x="0.0" y="114" width="327" height="115"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yzh-En-HUw" customClass="VitalityStatusView" customModule="AIAHealthUI" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="115"/>
+                                            <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3u7-I8-QAX">
+                                    <rect key="frame" x="0.0" y="229" width="327" height="114"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-a3-jwy" customClass="VitalityStatusBarView" customModule="AIAHealthUI" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="327" height="114"/>
+                                            <color key="backgroundColor" red="1" green="0.98337477669999995" blue="0.65089731669999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </view>
+                                    </subviews>
+                                </stackView>
                             </subviews>
                         </stackView>
                     </subviews>
@@ -52,10 +61,10 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7Nh-d5-RHt" secondAttribute="bottom" id="9YK-Vx-tHT"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Nh-d5-RHt" secondAttribute="trailing" id="KXV-rk-vPQ"/>
-                <constraint firstItem="7Nh-d5-RHt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UMy-hT-V94"/>
-                <constraint firstItem="7Nh-d5-RHt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="suf-2y-clg"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7Nh-d5-RHt" secondAttribute="bottom" constant="10" id="9YK-Vx-tHT"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="7Nh-d5-RHt" secondAttribute="trailing" constant="20" id="KXV-rk-vPQ"/>
+                <constraint firstItem="7Nh-d5-RHt" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="UMy-hT-V94"/>
+                <constraint firstItem="7Nh-d5-RHt" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="10" id="suf-2y-clg"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

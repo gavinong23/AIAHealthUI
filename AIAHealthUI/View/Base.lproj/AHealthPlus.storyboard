@@ -224,7 +224,6 @@
                                                     </view>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-Ws-pFs" customClass="BenefitsOfHealthRewardView" customModule="AIAHealthUI" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="323" width="375" height="323"/>
-                                                        <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                 </subviews>
                                                 <constraints>

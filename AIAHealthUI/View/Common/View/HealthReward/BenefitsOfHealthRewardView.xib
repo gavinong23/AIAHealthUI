@@ -22,10 +22,10 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2b-QA-dEA">
-                    <rect key="frame" x="0.0" y="0.0" width="401" height="377"/>
+                    <rect key="frame" x="20" y="8" width="361" height="361"/>
                     <subviews>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-Hc-9ks">
-                            <rect key="frame" x="0.0" y="0.0" width="401" height="377"/>
+                            <rect key="frame" x="0.0" y="0.0" width="361" height="361"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benefits Of Health Rewards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ6-dU-ScY">
                                     <rect key="frame" x="0.0" y="0.0" width="321.5" height="30"/>
@@ -34,12 +34,11 @@
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GXu-2s-4iT">
-                                    <rect key="frame" x="0.0" y="40" width="401" height="337"/>
+                                    <rect key="frame" x="0.0" y="40" width="361" height="321"/>
                                 </stackView>
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" red="0.62468554870000004" green="1" blue="0.44503577690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="cs0-Hc-9ks" firstAttribute="top" secondItem="c2b-QA-dEA" secondAttribute="top" id="Bfu-ME-VCu"/>
                         <constraint firstItem="cs0-Hc-9ks" firstAttribute="leading" secondItem="c2b-QA-dEA" secondAttribute="leading" id="dYu-dm-gw2"/>
@@ -49,10 +48,10 @@
                 </view>
             </subviews>
             <constraints>
-                <constraint firstItem="c2b-QA-dEA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4wi-KN-LyO"/>
-                <constraint firstItem="c2b-QA-dEA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ghU-lg-aGA"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="c2b-QA-dEA" secondAttribute="bottom" id="plP-mz-2B9"/>
-                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="c2b-QA-dEA" secondAttribute="trailing" id="sAH-08-8Uu"/>
+                <constraint firstItem="c2b-QA-dEA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="4wi-KN-LyO"/>
+                <constraint firstItem="c2b-QA-dEA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="8" id="ghU-lg-aGA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="c2b-QA-dEA" secondAttribute="bottom" constant="8" id="plP-mz-2B9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="c2b-QA-dEA" secondAttribute="trailing" constant="20" id="sAH-08-8Uu"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>

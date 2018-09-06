@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="VitalityStatusBarView" customModule="AIAHealthUI" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="iN0-l3-epB" id="751-3h-ptd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="14"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCt-tF-juG">
+                    <rect key="frame" x="0.0" y="0.0" width="398" height="14"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="status_bronze" translatesAutoresizingMaskIntoConstraints="NO" id="Pvz-pB-6mk">
+                            <rect key="frame" x="0.0" y="0.0" width="398" height="14"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Pvz-pB-6mk" firstAttribute="leading" secondItem="yCt-tF-juG" secondAttribute="leading" id="3Rf-XQ-ZM5"/>
+                        <constraint firstAttribute="bottom" secondItem="Pvz-pB-6mk" secondAttribute="bottom" id="8XQ-G1-eff"/>
+                        <constraint firstAttribute="trailing" secondItem="Pvz-pB-6mk" secondAttribute="trailing" id="E25-c5-rYC"/>
+                        <constraint firstItem="Pvz-pB-6mk" firstAttribute="top" secondItem="yCt-tF-juG" secondAttribute="top" id="pzq-nh-T6l"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="yCt-tF-juG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1Km-On-zwc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="yCt-tF-juG" secondAttribute="trailing" id="Rfx-Hs-ooW"/>
+                <constraint firstAttribute="bottom" secondItem="yCt-tF-juG" secondAttribute="bottom" id="S3u-f5-axO"/>
+                <constraint firstItem="yCt-tF-juG" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="nlY-0C-hZZ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="37" y="-299"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="status_bronze" width="345" height="16"/>
+    </resources>
+</document>
