@@ -7,13 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08417ABBFF6EE39F536F0F59 /* Pods_AIAHealthUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A74657F313A5A59E6D87EC2 /* Pods_AIAHealthUIUITests.framework */; };
 		3325A7B1213E14790024D770 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7B0213E14790024D770 /* AppDelegate.swift */; };
-		3325A7B3213E14790024D770 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7B2213E14790024D770 /* ViewController.swift */; };
-		3325A7B6213E14790024D770 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3325A7B4213E14790024D770 /* Main.storyboard */; };
+		3325A7B3213E14790024D770 /* HomeContentPersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7B2213E14790024D770 /* HomeContentPersonalViewController.swift */; };
+		3325A7B6213E14790024D770 /* AHealthPlus.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3325A7B4213E14790024D770 /* AHealthPlus.storyboard */; };
 		3325A7B8213E147B0024D770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3325A7B7213E147B0024D770 /* Assets.xcassets */; };
 		3325A7BB213E147B0024D770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3325A7B9213E147B0024D770 /* LaunchScreen.storyboard */; };
 		3325A7C6213E147B0024D770 /* AIAHealthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7C5213E147B0024D770 /* AIAHealthUITests.swift */; };
 		3325A7D1213E147B0024D770 /* AIAHealthUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7D0213E147B0024D770 /* AIAHealthUIUITests.swift */; };
+		3325A7E6213E1C620024D770 /* PlanAndBenefitsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7E5213E1C620024D770 /* PlanAndBenefitsViewController.swift */; };
+		3325A7E8213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7E7213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift */; };
+		3325A7EA213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3325A7E9213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib */; };
+		3325A7EC213E485D0024D770 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3325A7EB213E485D0024D770 /* R.generated.swift */; };
+		33B37483213FD4AC009C218D /* UIViewBorderExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33B37482213FD4AC009C218D /* UIViewBorderExtension.swift */; };
+		33CB3839213F697800443B09 /* main.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3838213F697800443B09 /* main.strings */; };
+		33CB383B213F70B700443B09 /* AHealthPlusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB383A213F70B700443B09 /* AHealthPlusViewModel.swift */; };
+		33CB383D213F70F000443B09 /* PlanAndBenefitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB383C213F70F000443B09 /* PlanAndBenefitsViewModel.swift */; };
+		33CB3843213F77BC00443B09 /* BenefitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3842213F77BC00443B09 /* BenefitsView.swift */; };
+		33CB3845213F77E100443B09 /* BenefitsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB3844213F77E100443B09 /* BenefitsView.xib */; };
+		33CB3849213F7B0D00443B09 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3848213F7B0D00443B09 /* UIViewExtension.swift */; };
+		33CB3885213F897600443B09 /* PlanAndBenefitsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3884213F897600443B09 /* PlanAndBenefitsModel.swift */; };
+		33CB388B213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB3889213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift */; };
+		33CB388C213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */; };
+		33CB388F213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */; };
+		33CB3890213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */; };
+		663986FF87ED6FC986CBEB88 /* Pods_AIAHealthUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E5B3B493D0C5971B06F3227 /* Pods_AIAHealthUI.framework */; };
+		C03B88873939B08473AF2EE1 /* Pods_AIAHealthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88424F2C8782EA0A8506918E /* Pods_AIAHealthUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,10 +53,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AAE71F020B24C22CEA88924 /* Pods-AIAHealthUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUITests/Pods-AIAHealthUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E5B3B493D0C5971B06F3227 /* Pods_AIAHealthUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIAHealthUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3325A7AD213E14790024D770 /* AIAHealthUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIAHealthUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3325A7B0213E14790024D770 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3325A7B2213E14790024D770 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3325A7B5213E14790024D770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3325A7B2213E14790024D770 /* HomeContentPersonalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeContentPersonalViewController.swift; sourceTree = "<group>"; };
+		3325A7B5213E14790024D770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/AHealthPlus.storyboard; sourceTree = "<group>"; };
 		3325A7B7213E147B0024D770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3325A7BA213E147B0024D770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3325A7BC213E147B0024D770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +68,29 @@
 		3325A7CC213E147B0024D770 /* AIAHealthUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIAHealthUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3325A7D0213E147B0024D770 /* AIAHealthUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIAHealthUIUITests.swift; sourceTree = "<group>"; };
 		3325A7D2213E147B0024D770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3325A7E5213E1C620024D770 /* PlanAndBenefitsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAndBenefitsViewController.swift; sourceTree = "<group>"; };
+		3325A7E7213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainContentPlanAndBenefitsView.swift; sourceTree = "<group>"; };
+		3325A7E9213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainContentPlanAndBenefitsView.xib; sourceTree = "<group>"; };
+		3325A7EB213E485D0024D770 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		33B37482213FD4AC009C218D /* UIViewBorderExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewBorderExtension.swift; sourceTree = "<group>"; };
+		33CB3838213F697800443B09 /* main.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = main.strings; sourceTree = "<group>"; };
+		33CB383A213F70B700443B09 /* AHealthPlusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHealthPlusViewModel.swift; sourceTree = "<group>"; };
+		33CB383C213F70F000443B09 /* PlanAndBenefitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAndBenefitsViewModel.swift; sourceTree = "<group>"; };
+		33CB3842213F77BC00443B09 /* BenefitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenefitsView.swift; sourceTree = "<group>"; };
+		33CB3844213F77E100443B09 /* BenefitsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BenefitsView.xib; sourceTree = "<group>"; };
+		33CB3848213F7B0D00443B09 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		33CB3884213F897600443B09 /* PlanAndBenefitsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanAndBenefitsModel.swift; sourceTree = "<group>"; };
+		33CB3889213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandablePlanAndBenefitsSectionTableViewCell.swift; sourceTree = "<group>"; };
+		33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandableSectionPlanAndBenefitsTableViewCell.xib; sourceTree = "<group>"; };
+		33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandedPlanAndBenefitsTableViewCell.swift; sourceTree = "<group>"; };
+		33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpandedPlanAndBenefitsTableViewCell.xib; sourceTree = "<group>"; };
+		397FF1F5932131E4DEA60CF2 /* Pods-AIAHealthUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUI/Pods-AIAHealthUI.debug.xcconfig"; sourceTree = "<group>"; };
+		77D5FB78A61406C4A261734D /* Pods-AIAHealthUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUIUITests/Pods-AIAHealthUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A74657F313A5A59E6D87EC2 /* Pods_AIAHealthUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIAHealthUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DE518DCAF9189F0CFE929C3 /* Pods-AIAHealthUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUIUITests/Pods-AIAHealthUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		88424F2C8782EA0A8506918E /* Pods_AIAHealthUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AIAHealthUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B99FBDC584CAA73D91916F42 /* Pods-AIAHealthUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUITests/Pods-AIAHealthUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E02214FCBBAA2E2944E00D95 /* Pods-AIAHealthUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIAHealthUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIAHealthUI/Pods-AIAHealthUI.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				663986FF87ED6FC986CBEB88 /* Pods_AIAHealthUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03B88873939B08473AF2EE1 /* Pods_AIAHealthUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08417ABBFF6EE39F536F0F59 /* Pods_AIAHealthUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +128,8 @@
 				3325A7C4213E147B0024D770 /* AIAHealthUITests */,
 				3325A7CF213E147B0024D770 /* AIAHealthUIUITests */,
 				3325A7AE213E14790024D770 /* Products */,
+				B5603872871A124DA24A26D6 /* Pods */,
+				96333B103FEEECD3018680CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +146,12 @@
 		3325A7AF213E14790024D770 /* AIAHealthUI */ = {
 			isa = PBXGroup;
 			children = (
-				3325A7B0213E14790024D770 /* AppDelegate.swift */,
-				3325A7B2213E14790024D770 /* ViewController.swift */,
-				3325A7B4213E14790024D770 /* Main.storyboard */,
-				3325A7B7213E147B0024D770 /* Assets.xcassets */,
-				3325A7B9213E147B0024D770 /* LaunchScreen.storyboard */,
-				3325A7BC213E147B0024D770 /* Info.plist */,
+				33CB3846213F7AAB00443B09 /* Helper */,
+				3325A7DE213E19960024D770 /* Starter */,
+				3325A7DF213E19A50024D770 /* Model */,
+				3325A7E0213E19AA0024D770 /* ViewModel */,
+				3325A7E2213E19D60024D770 /* Resources */,
+				3325A7E1213E19B40024D770 /* View */,
 			);
 			path = AIAHealthUI;
 			sourceTree = "<group>";
@@ -125,6 +174,133 @@
 			path = AIAHealthUIUITests;
 			sourceTree = "<group>";
 		};
+		3325A7DE213E19960024D770 /* Starter */ = {
+			isa = PBXGroup;
+			children = (
+				3325A7BC213E147B0024D770 /* Info.plist */,
+				3325A7B9213E147B0024D770 /* LaunchScreen.storyboard */,
+				3325A7B0213E14790024D770 /* AppDelegate.swift */,
+			);
+			path = Starter;
+			sourceTree = "<group>";
+		};
+		3325A7DF213E19A50024D770 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3884213F897600443B09 /* PlanAndBenefitsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3325A7E0213E19AA0024D770 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				33CB383A213F70B700443B09 /* AHealthPlusViewModel.swift */,
+				33CB383C213F70F000443B09 /* PlanAndBenefitsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		3325A7E1213E19B40024D770 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33CB383E213F75E500443B09 /* Common */,
+				3325A7E3213E1A210024D770 /* AHealthPlus */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3325A7E2213E19D60024D770 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3325A7EB213E485D0024D770 /* R.generated.swift */,
+				3325A7B7213E147B0024D770 /* Assets.xcassets */,
+				33CB3838213F697800443B09 /* main.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3325A7E3213E1A210024D770 /* AHealthPlus */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3886213F9BD700443B09 /* Cell */,
+				3325A7B4213E14790024D770 /* AHealthPlus.storyboard */,
+				3325A7B2213E14790024D770 /* HomeContentPersonalViewController.swift */,
+				3325A7E5213E1C620024D770 /* PlanAndBenefitsViewController.swift */,
+				3325A7E7213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift */,
+				3325A7E9213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib */,
+			);
+			path = AHealthPlus;
+			sourceTree = "<group>";
+		};
+		33CB383E213F75E500443B09 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				33CB383F213F76B200443B09 /* View */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		33CB383F213F76B200443B09 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3842213F77BC00443B09 /* BenefitsView.swift */,
+				33CB3844213F77E100443B09 /* BenefitsView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		33CB3846213F7AAB00443B09 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3847213F7AB000443B09 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		33CB3847213F7AB000443B09 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3848213F7B0D00443B09 /* UIViewExtension.swift */,
+				33B37482213FD4AC009C218D /* UIViewBorderExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		33CB3886213F9BD700443B09 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				33CB3889213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift */,
+				33CB388A213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib */,
+				33CB388D213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift */,
+				33CB388E213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		96333B103FEEECD3018680CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E5B3B493D0C5971B06F3227 /* Pods_AIAHealthUI.framework */,
+				88424F2C8782EA0A8506918E /* Pods_AIAHealthUITests.framework */,
+				7A74657F313A5A59E6D87EC2 /* Pods_AIAHealthUIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B5603872871A124DA24A26D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				397FF1F5932131E4DEA60CF2 /* Pods-AIAHealthUI.debug.xcconfig */,
+				E02214FCBBAA2E2944E00D95 /* Pods-AIAHealthUI.release.xcconfig */,
+				2AAE71F020B24C22CEA88924 /* Pods-AIAHealthUITests.debug.xcconfig */,
+				B99FBDC584CAA73D91916F42 /* Pods-AIAHealthUITests.release.xcconfig */,
+				7DE518DCAF9189F0CFE929C3 /* Pods-AIAHealthUIUITests.debug.xcconfig */,
+				77D5FB78A61406C4A261734D /* Pods-AIAHealthUIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3325A7D5213E147B0024D770 /* Build configuration list for PBXNativeTarget "AIAHealthUI" */;
 			buildPhases = (
+				692DB3CF022B091F65CFDA76 /* [CP] Check Pods Manifest.lock */,
 				3325A7A9213E14790024D770 /* Sources */,
 				3325A7AA213E14790024D770 /* Frameworks */,
 				3325A7AB213E14790024D770 /* Resources */,
+				F54C39D84F522EC70EB018D0 /* [CP] Embed Pods Frameworks */,
+				3325A7E4213E1C240024D770 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -149,6 +328,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3325A7D8213E147B0024D770 /* Build configuration list for PBXNativeTarget "AIAHealthUITests" */;
 			buildPhases = (
+				B29A6C3A8250640A4D368595 /* [CP] Check Pods Manifest.lock */,
 				3325A7BD213E147B0024D770 /* Sources */,
 				3325A7BE213E147B0024D770 /* Frameworks */,
 				3325A7BF213E147B0024D770 /* Resources */,
@@ -167,6 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3325A7DB213E147B0024D770 /* Build configuration list for PBXNativeTarget "AIAHealthUIUITests" */;
 			buildPhases = (
+				06E9D569BA1B0E3A9470BDE5 /* [CP] Check Pods Manifest.lock */,
 				3325A7C8213E147B0024D770 /* Sources */,
 				3325A7C9213E147B0024D770 /* Frameworks */,
 				3325A7CA213E147B0024D770 /* Resources */,
@@ -229,9 +410,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3325A7EA213E1F6D0024D770 /* MainContentPlanAndBenefitsView.xib in Resources */,
+				33CB3839213F697800443B09 /* main.strings in Resources */,
+				33CB388C213F9C9000443B09 /* ExpandableSectionPlanAndBenefitsTableViewCell.xib in Resources */,
+				33CB3890213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.xib in Resources */,
 				3325A7BB213E147B0024D770 /* LaunchScreen.storyboard in Resources */,
+				33CB3845213F77E100443B09 /* BenefitsView.xib in Resources */,
 				3325A7B8213E147B0024D770 /* Assets.xcassets in Resources */,
-				3325A7B6213E14790024D770 /* Main.storyboard in Resources */,
+				3325A7B6213E14790024D770 /* AHealthPlus.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +437,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06E9D569BA1B0E3A9470BDE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIAHealthUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3325A7E4213E1C240024D770 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT\"";
+		};
+		692DB3CF022B091F65CFDA76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIAHealthUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29A6C3A8250640A4D368595 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIAHealthUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F54C39D84F522EC70EB018D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AIAHealthUI/Pods-AIAHealthUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ExpandableCell/ExpandableCell.framework",
+				"${BUILT_PRODUCTS_DIR}/PagingMenuController/PagingMenuController.framework",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ExpandableCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PagingMenuController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIAHealthUI/Pods-AIAHealthUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3325A7A9213E14790024D770 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3325A7B3213E14790024D770 /* ViewController.swift in Sources */,
+				3325A7E8213E1F3C0024D770 /* MainContentPlanAndBenefitsView.swift in Sources */,
+				33CB3843213F77BC00443B09 /* BenefitsView.swift in Sources */,
+				33CB383B213F70B700443B09 /* AHealthPlusViewModel.swift in Sources */,
+				33CB383D213F70F000443B09 /* PlanAndBenefitsViewModel.swift in Sources */,
+				3325A7B3213E14790024D770 /* HomeContentPersonalViewController.swift in Sources */,
+				33CB388B213F9C9000443B09 /* ExpandablePlanAndBenefitsSectionTableViewCell.swift in Sources */,
+				3325A7EC213E485D0024D770 /* R.generated.swift in Sources */,
+				33CB388F213F9E3700443B09 /* ExpandedPlanAndBenefitsTableViewCell.swift in Sources */,
+				33CB3849213F7B0D00443B09 /* UIViewExtension.swift in Sources */,
 				3325A7B1213E14790024D770 /* AppDelegate.swift in Sources */,
+				33CB3885213F897600443B09 /* PlanAndBenefitsModel.swift in Sources */,
+				33B37483213FD4AC009C218D /* UIViewBorderExtension.swift in Sources */,
+				3325A7E6213E1C620024D770 /* PlanAndBenefitsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,12 +586,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3325A7B4213E14790024D770 /* Main.storyboard */ = {
+		3325A7B4213E14790024D770 /* AHealthPlus.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3325A7B5213E14790024D770 /* Base */,
 			);
-			name = Main.storyboard;
+			name = AHealthPlus.storyboard;
 			sourceTree = "<group>";
 		};
 		3325A7B9213E147B0024D770 /* LaunchScreen.storyboard */ = {
@@ -428,11 +721,12 @@
 		};
 		3325A7D6213E147B0024D770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 397FF1F5932131E4DEA60CF2 /* Pods-AIAHealthUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5J7BB7M8F;
-				INFOPLIST_FILE = AIAHealthUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AIAHealthUI/Starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -446,11 +740,12 @@
 		};
 		3325A7D7213E147B0024D770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E02214FCBBAA2E2944E00D95 /* Pods-AIAHealthUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = K5J7BB7M8F;
-				INFOPLIST_FILE = AIAHealthUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/AIAHealthUI/Starter/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +759,7 @@
 		};
 		3325A7D9213E147B0024D770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AAE71F020B24C22CEA88924 /* Pods-AIAHealthUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +781,7 @@
 		};
 		3325A7DA213E147B0024D770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99FBDC584CAA73D91916F42 /* Pods-AIAHealthUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +803,7 @@
 		};
 		3325A7DC213E147B0024D770 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DE518DCAF9189F0CFE929C3 /* Pods-AIAHealthUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +824,7 @@
 		};
 		3325A7DD213E147B0024D770 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D5FB78A61406C4A261734D /* Pods-AIAHealthUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

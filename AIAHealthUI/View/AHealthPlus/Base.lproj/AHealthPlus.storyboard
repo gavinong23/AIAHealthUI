@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="jCZ-SP-JJH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home Content Personal View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeContentPersonalViewController" customModule="AIAHealthUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ECW-xA-44L"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1990" y="1219"/>
+        </scene>
+        <!--Plan And Benefits View Controller-->
+        <scene sceneID="ELo-yY-ocz">
+            <objects>
+                <viewController id="4E1-aK-s0h" customClass="PlanAndBenefitsViewController" customModule="AIAHealthUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QWP-iT-ijd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YOE-PF-jgO">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Fje-u2-462">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Zg-gz-1As" customClass="MainContentPlanAndBenefitsView" customModule="AIAHealthUI" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="301.5"/>
+                                                <color key="backgroundColor" red="0.3564640832" green="1" blue="0.72072958649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="12A-I2-hih">
+                                                <rect key="frame" x="0.0" y="301.5" width="375" height="301.5"/>
+                                                <subviews>
+                                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iiF-Vk-Mud" customClass="ExpandableTableView" customModule="ExpandableCell">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="301.5"/>
+                                                        <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    </tableView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="iiF-Vk-Mud" firstAttribute="top" secondItem="12A-I2-hih" secondAttribute="top" id="03P-FW-1l6"/>
+                                                    <constraint firstItem="iiF-Vk-Mud" firstAttribute="leading" secondItem="12A-I2-hih" secondAttribute="leading" id="PHR-wf-kVQ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="iiF-Vk-Mud" secondAttribute="trailing" id="XVr-yO-wld"/>
+                                                    <constraint firstAttribute="bottom" secondItem="iiF-Vk-Mud" secondAttribute="bottom" id="eDV-az-XOi"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Fje-u2-462" secondAttribute="trailing" id="c6Y-xA-Lwc"/>
+                                    <constraint firstItem="Fje-u2-462" firstAttribute="top" secondItem="YOE-PF-jgO" secondAttribute="top" id="laV-Qu-0fH"/>
+                                    <constraint firstItem="Fje-u2-462" firstAttribute="leading" secondItem="YOE-PF-jgO" secondAttribute="leading" id="ppw-eH-JtU"/>
+                                    <constraint firstAttribute="bottom" secondItem="Fje-u2-462" secondAttribute="bottom" id="tm7-BI-mW2"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="YOE-PF-jgO" firstAttribute="leading" secondItem="Ury-s7-QXy" secondAttribute="leading" id="f88-bs-34o"/>
+                            <constraint firstItem="Ury-s7-QXy" firstAttribute="bottom" secondItem="YOE-PF-jgO" secondAttribute="bottom" id="koh-lN-z0I"/>
+                            <constraint firstItem="YOE-PF-jgO" firstAttribute="top" secondItem="Ury-s7-QXy" secondAttribute="top" id="mSr-xZ-Lqc"/>
+                            <constraint firstItem="Ury-s7-QXy" firstAttribute="trailing" secondItem="YOE-PF-jgO" secondAttribute="trailing" id="x7M-SU-byE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ury-s7-QXy"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QvL-mc-dV6"/>
+                    <connections>
+                        <outlet property="expandablePlanAndBenfitsTableView" destination="iiF-Vk-Mud" id="rJ7-jL-eVS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y40-Cb-4IY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1100" y="339"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="22l-sv-XqD">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jCZ-SP-JJH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="edX-Ys-pAW">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="4E1-aK-s0h" kind="relationship" relationship="rootViewController" id="mAz-Q3-dDV"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ezI-cj-jir" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="777.66116941529242"/>
+        </scene>
+    </scenes>
+</document>

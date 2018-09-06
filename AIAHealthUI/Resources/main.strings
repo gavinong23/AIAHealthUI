@@ -1,0 +1,74 @@
+/* 
+  main.strings
+  AIAHealthUI
+
+  Created by Gavin.ong on 05/09/2018.
+  Copyright © 2018 Gavin.ong. All rights reserved.
+*/
+
+
+
+"ahealthplus_plan_and_benefits_title" = "PLAN & BENEFITS";
+"ahealthplus_plan_and_benefits_status" = "Status";
+
+"ahealthplus_plan_and_benefits_inpatientcare_title" = "In-Patient Care";
+"ahealthplus_plan_and_benefits_inpatientcare_brief" = "Medical covarage if you require medical care or treatment at out-patient department of a hospital.";
+"ahealthplus_plan_and_benefits_inpatientcare_hospitalroom_and_board" = "Hospital Room and Board";
+"ahealthplus_plan_and_benefits_inpatientcare_150daysperyear" = "Up to 150 days per year";
+"ahealthplus_plan_and_benefits_inpatientcare_icu" = "Intensive Care Unit (ICU)";
+"ahealthplus_plan_and_benefits_inpatientcare_inhospitalrelatedfees" = "In Hospital Related Fees";
+"ahealthplus_plan_and_benefits_inpatientcare_inhospitalrelatedfees_brief" = "Hospital supplies and services / surgical fees / operation theatre / anesthetist's fees / in-hospital physician visit / daily guardian benefits";
+
+"ahealthplus_plan_and_benefits_outpatientcare_title" = "Out-Patient Care";
+"ahealthplus_plan_and_benefits_outpatientcare_brief" = "Medical coverage if you are admitted to hospital for medical treatment or surgery.";
+"ahealthplus_plan_and_benefits_outpatientcare_prehospitalisation" = "Pre-Hospitalisation\n(within 60days before hospitalisation)";
+"ahealthplus_plan_and_benefits_outpatientcare_prehospitalisation_brief" = "Diagnostic Tests / Specialist Consultation / Medication and Treatment";
+"ahealthplus_plan_and_benefits_outpatientcare_posthospitalisation" = "Post-Hospitalisation\n(within 150 days after hospitalisation)";
+"ahealthplus_plan_and_benefits_outpatientcare_posthospitalisation_brief" = "Diagnostic Tests / Specialist Consultation / Medication and Treatment (inclusive Physiotherapy, Chiropractic and Acupuncture)";
+"ahealthplus_plan_and_benefits_outpatientcare_outpatient-kidneydialysis" = "Out-patient Kidney Dialysis and Cancer Treatment";
+"ahealthplus_plan_and_benefits_outpatientcare_outpatient-kidneydialysis" = "Treatment for kidney failure and cancer at out-patient department";
+
+
+"ahealthplus_plan_and_benefits_extracare_title" = "Extra Care";
+"ahealthplus_plan_and_benefits_extracare_brief" = "Additional medical coverage";
+"ahealthplus_plan_and_benefits_extracare_intraocularlens" = "Intraocular lens";
+"ahealthplus_plan_and_benefits_extracare_intraocularlens_brief" = "For cataract or eyes injury";
+"ahealthplus_plan_and_benefits_extracare_homenursingcare" = "Home Nursing Care";
+"ahealthplus_plan_and_benefits_extracare_homenursingcare_brief" = "Treatment or therapy required skilled nurse care by a registered nurse to you at home";
+"ahealthplus_plan_and_benefits_extracare_emergencymedical" = "Emergency Medical Evacuation and Repatriation";
+"ahealthplus_plan_and_benefits_footer" = "Please refer to your policy contract for the details of each benefits.";
+
+
+"ahealthplus_healthwallet_title" = "HEALTH WALLET";
+"ahealthplus_healthwallet_totalamount" = "Total Amount";
+"ahealthplus_healthwallet_totalamount_brief" = "Money will be credited to Health Wallet at the end of the year provided no claim is made in that year.";
+
+"ahealthplus_healthwallet_usage_title" = "How can i use for Health Wallet?";
+"ahealthplus_healthwallet_usage_prevention" = "Prevention";
+"ahealthplus_healthwallet_usage_prevention_brief" = "Health Screening";
+"ahealthplus_healthwallet_usage_hospitalisationtreatment" = "Hospitalisation Treatment";
+"ahealthplus_healthwallet_usage_hospitalisationtreatment_brief" = "1. Congenital Conditions \n2. Maternity Complications\n3. Plastic or cosmetic surgery due to accident or cancer";
+"ahealthplus_healthwallet_usage_followup_and_recover" = "Follow Up and Recover";
+"ahealthplus_healthwallet_usage_followup_and_recover_recoverycare" = "Recovery Care";
+"ahealthplus_healthwallet_usage_followup_and_recover_recoverycare_brief" = "Medical treatment for cancer, stroke and heart attack (from low to high severity) within 3 years from diagnosis date";
+"ahealthplus_healthwallet_usage_followup_and_recover_mobility" = "Mobility and Hearing Support";
+"ahealthplus_healthwallet_usage_followup_and_recover_mobility_brief" = "Covers external prosthetics for artificial limb and hearing aid";
+"ahealthplus_healthwallet_usage_annuallimitextra" = "Annual Limit Extra";
+"ahealthplus_healthwallet_usage_annuallimitextra_brief" = "In the event if the annual limit is fully utilized, you may use the total amount available in Health Wallet to pay the remaining meidical cost.";
+"ahealthplus_healthwallet_footer" = "All the benefits above shall based on the remaining available amount in the Health Wallet.";
+
+
+"ahealthplus_healthrewards_title" = "HEALTH REWARD";
+"ahealthplus_healthrewards_vitality_status" = "YOUR AIA VITALITY STATUS";
+"ahealthplus_healthrewards_benefits_title" = "Benefits of Health Rewards";
+"ahealthplus_healthrewards_benefits_deductiblewaiver" = "Deductible Waiver";
+"ahealthplus_healthrewards_benefits_deductiblewaiver_brief" = "AIA will waive your Deductible Amount (if any) upon hospital admission, depending on your AIA Vitality status.";
+"ahealthplus_healthrewards_hospitalroom_and_board_upgrade" = "Hospital Room and Board Upgrade";
+"ahealthplus_healthrewards_hospitalroom_and_board_upgrade_brief" = "AIA will auto upgrade your Hospital Room and Board amount upon hospital admission, depending on AIA Vitality status.";
+"ahealthplus_healthrewards_healthwalletbooster" = "Health Wallet Booster";
+"ahealthplus_healthrewards_healthwalletbooster_brief" = "AIA will increase your Health Wallet every year, depending on AIA Vitality status.";
+
+
+
+
+
