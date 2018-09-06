@@ -24,7 +24,7 @@ class MainContentHealthWalletView: UIView {
         
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
-        self.translatesAutoresizingMaskIntoConstraints = false
+//        self.translatesAutoresizingMaskIntoConstraints = false
         
         
     }

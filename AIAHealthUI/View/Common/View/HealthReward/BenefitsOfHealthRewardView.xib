@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BenefitsOfHealthRewardView" customModule="AIAHealthUI" customModuleProvider="target">
+            <connections>
+                <outlet property="benefitsStackView" destination="GXu-2s-4iT" id="F2W-og-OPX"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="NV4-Jo-LeS"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="401" height="377"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c2b-QA-dEA">
+                    <rect key="frame" x="0.0" y="0.0" width="401" height="377"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-Hc-9ks">
+                            <rect key="frame" x="0.0" y="0.0" width="401" height="377"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Benefits Of Health Rewards" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wQ6-dU-ScY">
+                                    <rect key="frame" x="0.0" y="0.0" width="321.5" height="30"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="GXu-2s-4iT">
+                                    <rect key="frame" x="0.0" y="40" width="401" height="337"/>
+                                </stackView>
+                            </subviews>
+                        </stackView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.62468554870000004" green="1" blue="0.44503577690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="cs0-Hc-9ks" firstAttribute="top" secondItem="c2b-QA-dEA" secondAttribute="top" id="Bfu-ME-VCu"/>
+                        <constraint firstItem="cs0-Hc-9ks" firstAttribute="leading" secondItem="c2b-QA-dEA" secondAttribute="leading" id="dYu-dm-gw2"/>
+                        <constraint firstAttribute="bottom" secondItem="cs0-Hc-9ks" secondAttribute="bottom" id="usF-i1-CFQ"/>
+                        <constraint firstAttribute="trailing" secondItem="cs0-Hc-9ks" secondAttribute="trailing" id="zTh-bD-dte"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="c2b-QA-dEA" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="4wi-KN-LyO"/>
+                <constraint firstItem="c2b-QA-dEA" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="ghU-lg-aGA"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="c2b-QA-dEA" secondAttribute="bottom" id="plP-mz-2B9"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="c2b-QA-dEA" secondAttribute="trailing" id="sAH-08-8Uu"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="58" y="-132"/>
+        </view>
+    </objects>
+</document>

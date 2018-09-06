@@ -1,5 +1,5 @@
 //
-//  MainContentHealthRewardView.swift
+//  VitalityStatusView.swift
 //  AIAHealthUI
 //
 //  Created by Gavin.ong on 06/09/2018.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class MainContentHealthRewardView: UIView {
+class VitalityStatusView: UIView {
 
     @IBOutlet var contentView: UIView!
+    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -20,8 +21,10 @@ class MainContentHealthRewardView: UIView {
         super.init(coder: aDecoder)
         commonInit()
     }
+    
+    
     func commonInit() {
-        Bundle.main.loadNibNamed(R.nib.mainContentHealthRewardView.name, owner: self, options: nil)
+        Bundle.main.loadNibNamed(R.nib.vitalityStatusView.name, owner: self, options: nil)
         
         addSubview(contentView)
         
@@ -31,10 +34,12 @@ class MainContentHealthRewardView: UIView {
         
         self.translatesAutoresizingMaskIntoConstraints = false
         
-//        print("MainContentHealthReward")
+        
+//        self.containerView.backgroundColor = UIColor(patternImage: UIImage(named:"bronze")!)
         
         
     }
+
     
 
 }

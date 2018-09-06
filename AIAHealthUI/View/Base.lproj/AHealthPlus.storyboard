@@ -121,7 +121,7 @@
                     <connections>
                         <segue destination="4E1-aK-s0h" kind="relationship" relationship="viewControllers" id="dDC-sN-sq6"/>
                         <segue destination="TaH-qr-59o" kind="relationship" relationship="viewControllers" id="aQc-G8-IeX"/>
-                        <segue destination="Xey-yC-QPj" kind="relationship" relationship="viewControllers" id="DH6-RQ-DfP"/>
+                        <segue destination="Xey-yC-QPj" kind="relationship" relationship="viewControllers" id="tUr-ET-Ijl"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b65-xu-yL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -183,6 +183,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="K2c-Pr-lRg" firstAttribute="top" secondItem="acL-lR-92b" secondAttribute="top" id="12C-tB-v0D"/>
+                            <constraint firstItem="P3f-gh-Wpb" firstAttribute="leading" secondItem="acL-lR-92b" secondAttribute="leading" id="Cj0-De-3Fl"/>
                             <constraint firstItem="K2c-Pr-lRg" firstAttribute="leading" secondItem="acL-lR-92b" secondAttribute="leading" id="Naq-7J-jIl"/>
                             <constraint firstItem="acL-lR-92b" firstAttribute="trailing" secondItem="K2c-Pr-lRg" secondAttribute="trailing" id="glP-Tr-aMw"/>
                             <constraint firstItem="acL-lR-92b" firstAttribute="bottom" secondItem="K2c-Pr-lRg" secondAttribute="bottom" id="ojq-Aa-hyY"/>
@@ -200,7 +201,7 @@
             </objects>
             <point key="canvasLocation" x="1350" y="492"/>
         </scene>
-        <!--Item-->
+        <!--Health Reward View Controller-->
         <scene sceneID="LoS-Jc-h9g">
             <objects>
                 <viewController id="Xey-yC-QPj" customClass="HealthRewardViewController" customModule="AIAHealthUI" customModuleProvider="target" sceneMemberID="viewController">
@@ -212,20 +213,25 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="554"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lVC-54-ArR">
-                                        <rect key="frame" x="0.0" y="0.0" width="379" height="551"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="646"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="cNX-eK-Yuj">
-                                                <rect key="frame" x="0.0" y="0.0" width="379" height="551"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="646"/>
                                                 <subviews>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odL-3x-BUM">
-                                                        <rect key="frame" x="0.0" y="0.0" width="379" height="228"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="odL-3x-BUM" customClass="MainContentHealthRewardView" customModule="AIAHealthUI" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="323"/>
                                                         <color key="backgroundColor" red="0.3564640832" green="1" blue="0.72072958649999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
-                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-Ws-pFs">
-                                                        <rect key="frame" x="0.0" y="228" width="379" height="323"/>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cqd-Ws-pFs" customClass="BenefitsOfHealthRewardView" customModule="AIAHealthUI" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="323" width="375" height="323"/>
                                                         <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     </view>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="odL-3x-BUM" secondAttribute="trailing" id="dPH-Sj-Zcf"/>
+                                                    <constraint firstItem="odL-3x-BUM" firstAttribute="top" secondItem="cNX-eK-Yuj" secondAttribute="top" id="vPZ-HZ-DOB"/>
+                                                    <constraint firstItem="odL-3x-BUM" firstAttribute="leading" secondItem="cNX-eK-Yuj" secondAttribute="leading" id="wjT-m4-rPo"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -242,7 +248,7 @@
                                     <constraint firstAttribute="trailing" secondItem="lVC-54-ArR" secondAttribute="trailing" id="4d1-7B-Dqn"/>
                                     <constraint firstItem="lVC-54-ArR" firstAttribute="height" secondItem="6tZ-7R-E1Z" secondAttribute="height" priority="250" id="AlO-og-Uf6"/>
                                     <constraint firstItem="lVC-54-ArR" firstAttribute="leading" secondItem="6tZ-7R-E1Z" secondAttribute="leading" id="CZ3-Mu-IfJ"/>
-                                    <constraint firstItem="lVC-54-ArR" firstAttribute="width" secondItem="6tZ-7R-E1Z" secondAttribute="width" priority="250" id="Has-8A-Z4l"/>
+                                    <constraint firstItem="lVC-54-ArR" firstAttribute="width" secondItem="6tZ-7R-E1Z" secondAttribute="width" id="Has-8A-Z4l"/>
                                     <constraint firstItem="lVC-54-ArR" firstAttribute="top" secondItem="6tZ-7R-E1Z" secondAttribute="top" id="j7X-Ya-WoA"/>
                                 </constraints>
                             </scrollView>
@@ -256,7 +262,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cbi-1g-P3T"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="pYW-32-Weo"/>
+                    <tabBarItem key="tabBarItem" systemItem="search" id="pYW-32-Weo"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WGo-oA-sjo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

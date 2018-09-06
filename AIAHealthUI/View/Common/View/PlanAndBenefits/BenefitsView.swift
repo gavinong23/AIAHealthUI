@@ -24,6 +24,7 @@ class BenefitsView: UIView {
         
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
+        
     }
     
 
