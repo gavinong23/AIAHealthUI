@@ -12,6 +12,7 @@ class MainContentPlanAndBenefitsView: UIView {
     
     @IBOutlet weak var planAndBenefitsTitleLabel: UILabel!
     
+    @IBOutlet weak var benefitsViewHeightConstraint: NSLayoutConstraint!
     
     @IBOutlet weak var statusTitleLabel: UILabel!
     
@@ -46,6 +47,8 @@ class MainContentPlanAndBenefitsView: UIView {
     
     
     func setupView(){
+        
+     
         
         //Static
         self.planAndBenefitsTitleLabel.text = R.string.main.ahealthplus_plan_and_benefits_title()

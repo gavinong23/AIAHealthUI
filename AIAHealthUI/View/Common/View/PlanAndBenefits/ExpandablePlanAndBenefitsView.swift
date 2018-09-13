@@ -12,10 +12,14 @@ class ExpandablePlanAndBenefitsView: UIView {
 
     @IBOutlet var contentView: UIView!
     
+    
+    @IBOutlet weak var expandableTitleLabel: UILabel!
+    
+    @IBOutlet weak var expandableBriefLabel: UILabel!
+    
     @IBOutlet weak var expandButton: UIButton!
     
-    @IBOutlet weak var benefitsView: BenefitsView!
-    
+
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -37,6 +41,22 @@ class ExpandablePlanAndBenefitsView: UIView {
         translatesAutoresizingMaskIntoConstraints = false
         
          layoutIfNeeded()
+        
+        setupView()
+    }
+    
+    
+    func setupView(){
+        self.expandButton.setImage(R.image.expandArrowDown(), for: .normal)
+    }
+    
+    
+    
+    @IBAction func expandButtonOnClick(_ sender: Any) {
+        
+   
+        
+      
     }
     
     
