@@ -9,7 +9,11 @@
 
 
 "ahealthplus_plan_and_benefits_title" = "PLAN & BENEFITS";
-"ahealthplus_plan_and_benefits_status" = "Status";
+"ahealthplus_plan_and_benefits_status" = "Status:";
+
+"ahealthplus_plan_and_benefits_deductibleoption_title" = "Deductible Option";
+
+"ahealthplus_plan_and_benefits_deductibleoption_brief" = "When you are admitted into hospital, your payable cost will be offset with a deductible amount based on your Vitality status.";
 
 "ahealthplus_plan_and_benefits_inpatientcare_title" = "In-Patient Care";
 "ahealthplus_plan_and_benefits_inpatientcare_brief" = "Medical covarage if you require medical care or treatment at out-patient department of a hospital.";

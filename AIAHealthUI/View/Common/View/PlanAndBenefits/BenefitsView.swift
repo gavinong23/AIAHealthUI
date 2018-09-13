@@ -6,6 +6,12 @@ class BenefitsView: UIView {
     
     @IBOutlet var contentView: UIView!
     
+    @IBOutlet weak var benefitsImageView: UIImageView!
+    
+    
+    @IBOutlet weak var benefitsTitleLabel: UILabel!
+
+    @IBOutlet weak var benefitsBriefLabel: UILabel!
     
     override init(frame: CGRect) {
         super.init(frame: frame)

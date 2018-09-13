@@ -50,6 +50,11 @@
                                                         <rect key="frame" x="0.0" y="333.5" width="375" height="333.5"/>
                                                     </view>
                                                 </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="12A-I2-hih" firstAttribute="leading" secondItem="Fje-u2-462" secondAttribute="leading" id="3Ka-SU-VbF"/>
+                                                    <constraint firstItem="12A-I2-hih" firstAttribute="top" secondItem="3Zg-gz-1As" secondAttribute="bottom" id="4Zs-be-OZN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="12A-I2-hih" secondAttribute="trailing" id="lE8-r2-eon"/>
+                                                </constraints>
                                             </stackView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -197,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="puS-Mv-aRn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1350" y="492"/>
+            <point key="canvasLocation" x="1349.5999999999999" y="491.15442278860576"/>
         </scene>
         <!--Health Reward View Controller-->
         <scene sceneID="LoS-Jc-h9g">

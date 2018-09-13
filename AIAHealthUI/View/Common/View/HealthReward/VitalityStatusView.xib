@@ -28,35 +28,50 @@
                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="mb9-gX-Qah">
                             <rect key="frame" x="0.0" y="0.0" width="358" height="127"/>
                         </imageView>
-                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="wJi-tt-r0Z">
-                            <rect key="frame" x="0.0" y="0.0" width="358" height="127"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gQb-y8-Iud">
+                            <rect key="frame" x="20" y="0.0" width="338" height="127"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR AIA VITALITY STATUS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icg-KQ-x3D">
-                                    <rect key="frame" x="0.0" y="0.0" width="251" height="24"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="GOLD" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcH-U5-ryv">
-                                    <rect key="frame" x="0.0" y="24" width="67.5" height="103"/>
-                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
-                                    <nil key="textColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="wJi-tt-r0Z">
+                                    <rect key="frame" x="0.0" y="0.0" width="338" height="127"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="puu-BU-dw5">
+                                            <rect key="frame" x="0.0" y="0.0" width="338" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="YOUR AIA VITALITY STATUS" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icg-KQ-x3D">
+                                                    <rect key="frame" x="0.0" y="20" width="338" height="24"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="ljB-Me-5nk">
+                                            <rect key="frame" x="0.0" y="63.5" width="338" height="63.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="GOLD" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gcH-U5-ryv">
+                                                    <rect key="frame" x="0.0" y="0.0" width="338" height="30"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                </stackView>
                             </subviews>
                         </stackView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
+                        <constraint firstItem="gQb-y8-Iud" firstAttribute="top" secondItem="cAJ-M3-i0y" secondAttribute="top" id="2sj-WU-pX4"/>
+                        <constraint firstItem="gQb-y8-Iud" firstAttribute="leading" secondItem="cAJ-M3-i0y" secondAttribute="leading" constant="20" id="475-JC-rmW"/>
                         <constraint firstAttribute="trailing" secondItem="mb9-gX-Qah" secondAttribute="trailing" id="9fZ-HP-EK2"/>
-                        <constraint firstAttribute="bottom" secondItem="wJi-tt-r0Z" secondAttribute="bottom" id="9fd-sA-PTS"/>
                         <constraint firstItem="mb9-gX-Qah" firstAttribute="leading" secondItem="cAJ-M3-i0y" secondAttribute="leading" id="CBr-gs-gPA"/>
                         <constraint firstItem="mb9-gX-Qah" firstAttribute="top" secondItem="cAJ-M3-i0y" secondAttribute="top" id="CmO-Sn-ucL"/>
                         <constraint firstAttribute="width" secondItem="cAJ-M3-i0y" secondAttribute="height" multiplier="358:127" id="SJI-Fq-q73"/>
-                        <constraint firstAttribute="trailing" secondItem="wJi-tt-r0Z" secondAttribute="trailing" id="Vi0-aw-p9n"/>
-                        <constraint firstItem="wJi-tt-r0Z" firstAttribute="leading" secondItem="cAJ-M3-i0y" secondAttribute="leading" id="WhP-DR-pDd"/>
+                        <constraint firstAttribute="bottom" secondItem="gQb-y8-Iud" secondAttribute="bottom" id="eRd-9M-gYm"/>
                         <constraint firstAttribute="bottom" secondItem="mb9-gX-Qah" secondAttribute="bottom" id="gYC-pc-Mlx"/>
-                        <constraint firstItem="wJi-tt-r0Z" firstAttribute="top" secondItem="cAJ-M3-i0y" secondAttribute="top" id="kfa-Vk-JwJ"/>
+                        <constraint firstAttribute="trailing" secondItem="gQb-y8-Iud" secondAttribute="trailing" id="jZn-Og-xEk"/>
                     </constraints>
                 </view>
             </subviews>

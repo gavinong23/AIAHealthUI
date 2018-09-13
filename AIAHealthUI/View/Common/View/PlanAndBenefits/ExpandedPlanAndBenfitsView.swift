@@ -15,7 +15,9 @@ class ExpandedPlanAndBenefitsView: UIView{
     
     @IBOutlet var contentView: UIView!
     
+    @IBOutlet weak var contentBorderView: UIView!
     
+    @IBOutlet weak var stackView: UIStackView!
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
@@ -33,9 +35,14 @@ class ExpandedPlanAndBenefitsView: UIView{
         
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
+        
+      
+        
         translatesAutoresizingMaskIntoConstraints = false
+
         
          layoutIfNeeded()
+
     }
     
     

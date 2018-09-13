@@ -42,18 +42,38 @@ class BenefitsOfHealthRewardView: UIView {
             subview.removeFromSuperview()
         }
         
-        
+        //1
         let benefitsView = BenefitsView()
         
         benefitsView.frame = benefitsStackView.frame
         
+        benefitsView.benefitsImageView.image = R.image.board_room()
+        
+        benefitsView.benefitsTitleLabel.text = R.string.main.ahealthplus_healthrewards_benefits_deductiblewaiver()
+        
+        benefitsView.benefitsBriefLabel.text = R.string.main.ahealthplus_healthrewards_benefits_deductiblewaiver_brief()
         benefitsStackView.addArrangedSubview(benefitsView)
         
+        
+        //2
          let benefitsView2 = BenefitsView()
         
-         benefitsStackView.addArrangedSubview(benefitsView2)
+        benefitsView2.benefitsImageView.image = R.image.icon_inhospital_grey()
         
+        benefitsView2.benefitsTitleLabel.text = R.string.main.ahealthplus_healthrewards_hospitalroom_and_board_upgrade()
+        
+        benefitsView2.benefitsBriefLabel.text = R.string.main.ahealthplus_healthrewards_hospitalroom_and_board_upgrade_brief()
+        benefitsStackView.addArrangedSubview(benefitsView2)
+        
+        
+        //3
         let benefitsView3 = BenefitsView()
+        
+        benefitsView3.benefitsImageView.image = R.image.healthWalletBoosters()
+        
+        benefitsView3.benefitsTitleLabel.text = R.string.main.ahealthplus_healthrewards_healthwalletbooster()
+        
+        benefitsView3.benefitsBriefLabel.text = R.string.main.ahealthplus_healthrewards_healthwalletbooster_brief()
         benefitsStackView.addArrangedSubview(benefitsView3)
         
         

@@ -10,6 +10,14 @@ import UIKit
 
 class MainContentPlanAndBenefitsView: UIView {
     
+    @IBOutlet weak var planAndBenefitsTitleLabel: UILabel!
+    
+    
+    @IBOutlet weak var statusTitleLabel: UILabel!
+    
+    
+    @IBOutlet weak var statusLabel: UILabel!
+    
     
     @IBOutlet var contentView: UIView!
     
@@ -33,7 +41,29 @@ class MainContentPlanAndBenefitsView: UIView {
         
         contentView.autoresizingMask = [.flexibleHeight, .flexibleWidth]
         
+        setupView()
+    }
     
+    
+    func setupView(){
+        
+        //Static
+        self.planAndBenefitsTitleLabel.text = R.string.main.ahealthplus_plan_and_benefits_title()
+        
+        self.statusTitleLabel.text = R.string.main.ahealthplus_plan_and_benefits_status()
+        
+        //Dynamic: status
+        self.statusLabel.text = "Dynamic field"
+        
+        //Static Reuse: BenefitsView
+        self.benefitsView.benefitsImageView.image = R.image.deductibleOption()
+        
+        self.benefitsView.benefitsTitleLabel.text = R.string.main.ahealthplus_plan_and_benefits_deductibleoption_title()
+        
+        self.benefitsView.benefitsBriefLabel.text = R.string.main.ahealthplus_plan_and_benefits_deductibleoption_brief()
+        
+        
+        
     }
 
 

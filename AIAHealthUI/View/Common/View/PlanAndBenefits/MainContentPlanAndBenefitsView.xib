@@ -14,6 +14,9 @@
             <connections>
                 <outlet property="benefitsView" destination="UY8-n3-tw7" id="6R0-TT-6Yo"/>
                 <outlet property="contentView" destination="3ah-F4-oAs" id="DHe-KW-fB6"/>
+                <outlet property="planAndBenefitsTitleLabel" destination="vYc-oi-6bX" id="fOa-mS-wY0"/>
+                <outlet property="statusLabel" destination="edI-JU-dM0" id="0dW-O7-Yi6"/>
+                <outlet property="statusTitleLabel" destination="icm-s6-iMH" id="1MA-vi-beT"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
@@ -33,21 +36,21 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8uY-hq-GBf">
                                             <rect key="frame" x="0.0" y="0.0" width="478" height="320"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="795-TJ-D6f">
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="795-TJ-D6f">
                                                     <rect key="frame" x="0.0" y="0.0" width="211" height="150"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="iW6-Wk-Fds">
-                                                            <rect key="frame" x="0.0" y="0.0" width="211" height="99"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iW6-Wk-Fds">
+                                                            <rect key="frame" x="0.0" y="0.0" width="211" height="89"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PLAN &amp; BENEFITS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vYc-oi-6bX">
-                                                                    <rect key="frame" x="0.0" y="34.5" width="211" height="30"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="211" height="89"/>
                                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
                                                         </stackView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Dvx-H1-pYY">
+                                                        <stackView opaque="NO" contentMode="scaleToFill" placeholderIntrinsicWidth="211" placeholderIntrinsicHeight="51" axis="vertical" alignment="top" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="Dvx-H1-pYY">
                                                             <rect key="frame" x="0.0" y="99" width="211" height="51"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Status:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="icm-s6-iMH">
@@ -74,6 +77,9 @@
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UY8-n3-tw7" customClass="BenefitsView" customModule="AIAHealthUI" customModuleProvider="target">
                                                             <rect key="frame" x="0.0" y="0.0" width="478" height="150"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" priority="999" constant="150" id="nZm-6J-UZ7"/>
+                                                            </constraints>
                                                         </view>
                                                     </subviews>
                                                 </stackView>
