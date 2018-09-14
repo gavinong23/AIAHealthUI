@@ -30,8 +30,14 @@
 "ahealthplus_plan_and_benefits_outpatientcare_posthospitalisation" = "Post-Hospitalisation\n(within 150 days after hospitalisation)";
 "ahealthplus_plan_and_benefits_outpatientcare_posthospitalisation_brief" = "Diagnostic Tests / Specialist Consultation / Medication and Treatment (inclusive Physiotherapy, Chiropractic and Acupuncture)";
 "ahealthplus_plan_and_benefits_outpatientcare_outpatient-kidneydialysis" = "Out-patient Kidney Dialysis and Cancer Treatment";
-"ahealthplus_plan_and_benefits_outpatientcare_outpatient-kidneydialysis" = "Treatment for kidney failure and cancer at out-patient department";
+"ahealthplus_plan_and_benefits_outpatientcare_outpatient-kidneydialysis_brief" = "Treatment for kidney failure and cancer at out-patient department";
+"ahealthplus_plan_and_benefits_outpatientcare_surgery" = "Day Cre Procedure and Surgery";
 
+"ahealthplus_plan_and_benefits_outpatientcare_surgery_brief" = "Medical treatment or surgery at day procedure centre without admission to hospital";
+"ahealthplus_plan_and_benefits_outpatientcare_denguefever" = "Out-patients Dengue Fever Treatment";
+"ahealthplus_plan_and_benefits_outpatientcare_denguefever_brief" = "Treatment of dengue fever without hospitalisation";
+"ahealthplus_plan_and_benefits_outpatientcare_emergency" = "Emergency Accidental Out-patient Treatment (inclusive dental) and 30 days follow-up treatment";
+"ahealthplus_plan_and_benefits_outpatientcare_emergency_brief" = "Medical treatment at emergency out-patient department or clinic due to an accident";
 
 "ahealthplus_plan_and_benefits_extracare_title" = "Extra Care";
 "ahealthplus_plan_and_benefits_extracare_brief" = "Additional medical coverage";

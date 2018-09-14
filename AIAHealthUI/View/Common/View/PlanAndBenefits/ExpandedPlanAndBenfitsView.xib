@@ -12,23 +12,26 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ExpandedPlanAndBenefitsView" customModule="AIAHealthUI" customModuleProvider="target">
             <connections>
+                <outlet property="bottomBorderView" destination="YeY-p6-5Mg" id="dwr-F8-j6t"/>
                 <outlet property="contentBorderView" destination="ABH-ZO-JWp" id="GFl-rA-lA2"/>
                 <outlet property="contentView" destination="iN0-l3-epB" id="1Ri-vF-Zu3"/>
-                <outlet property="stackView" destination="d5S-s3-TyF" id="oiS-N2-NYh"/>
+                <outlet property="expandedBriefLabel" destination="9Py-S4-woa" id="rXa-5K-UdF"/>
+                <outlet property="expandedImageView" destination="OHW-nC-taX" id="mfP-03-ZJQ"/>
+                <outlet property="expandedTitleLabel" destination="Apa-P4-vMh" id="vU7-sk-1AZ"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
-            <rect key="frame" x="0.0" y="0.0" width="347" height="133"/>
+            <rect key="frame" x="0.0" y="0.0" width="347" height="198"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n1L-wC-Elu">
-                    <rect key="frame" x="0.0" y="0.0" width="347" height="133"/>
+                    <rect key="frame" x="0.0" y="0.0" width="347" height="198"/>
                     <subviews>
-                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="2Wf-PM-dGM">
-                            <rect key="frame" x="0.0" y="0.0" width="347" height="118"/>
+                        <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="2Wf-PM-dGM">
+                            <rect key="frame" x="15" y="0.0" width="332" height="183"/>
                             <subviews>
-                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="OHW-nC-taX">
+                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="OHW-nC-taX">
                                     <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                     <constraints>
                                         <constraint firstAttribute="height" constant="50" id="5zt-EL-KXf"/>
@@ -36,42 +39,61 @@
                                     </constraints>
                                 </imageView>
                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ABH-ZO-JWp">
-                                    <rect key="frame" x="60" y="0.0" width="287" height="118"/>
+                                    <rect key="frame" x="70" y="0.0" width="262" height="178"/>
                                     <subviews>
-                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="d5S-s3-TyF">
-                                            <rect key="frame" x="0.0" y="0.0" width="287" height="118"/>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="gNh-9P-qFo">
+                                            <rect key="frame" x="0.0" y="0.0" width="262" height="178"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="In-Hospital Related Fees" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Apa-P4-vMh">
-                                                    <rect key="frame" x="0.0" y="0.0" width="287" height="20.5"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Py-S4-woa">
-                                                    <rect key="frame" x="0.0" y="20.5" width="287" height="97.5"/>
-                                                    <string key="text">Hospital supplies and services / surgaical fees / operation theatre / anesthetist's fees / in-hospital physician visit / daily guardian benefits</string>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="d5S-s3-TyF">
+                                                    <rect key="frame" x="0.0" y="0.0" width="262" height="152"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="In-Hospital Related Fees" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Apa-P4-vMh">
+                                                            <rect key="frame" x="0.0" y="0.0" width="262" height="30.5"/>
+                                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Py-S4-woa">
+                                                            <rect key="frame" x="0.0" y="50.5" width="262" height="101.5"/>
+                                                            <string key="text">Hospital supplies and services / surgaical fees / operation theatre / anesthetist's fees / in-hospital physician visit / daily guardian benefits</string>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YeY-p6-5Mg">
+                                                    <rect key="frame" x="0.0" y="177" width="262" height="1"/>
+                                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="1" id="nV6-jb-vIJ"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="1"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
                                             </subviews>
                                         </stackView>
                                     </subviews>
-                                    <color key="backgroundColor" red="0.62468554870000004" green="1" blue="0.44503577690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <constraints>
-                                        <constraint firstItem="d5S-s3-TyF" firstAttribute="leading" secondItem="ABH-ZO-JWp" secondAttribute="leading" id="NAP-G0-1XF"/>
-                                        <constraint firstItem="d5S-s3-TyF" firstAttribute="top" secondItem="ABH-ZO-JWp" secondAttribute="top" id="Tt0-d5-4o0"/>
-                                        <constraint firstAttribute="bottom" secondItem="d5S-s3-TyF" secondAttribute="bottom" id="XIe-iR-RlF"/>
-                                        <constraint firstAttribute="trailing" secondItem="d5S-s3-TyF" secondAttribute="trailing" id="hb6-X9-hK3"/>
+                                        <constraint firstAttribute="bottom" secondItem="gNh-9P-qFo" secondAttribute="bottom" id="0mz-L4-L5A"/>
+                                        <constraint firstItem="gNh-9P-qFo" firstAttribute="top" secondItem="ABH-ZO-JWp" secondAttribute="top" id="BhU-CL-GSc"/>
+                                        <constraint firstItem="gNh-9P-qFo" firstAttribute="leading" secondItem="ABH-ZO-JWp" secondAttribute="leading" id="qNh-yo-Pxk"/>
+                                        <constraint firstAttribute="trailing" secondItem="gNh-9P-qFo" secondAttribute="trailing" id="tAJ-aL-M7y"/>
                                     </constraints>
                                 </view>
                             </subviews>
                         </stackView>
                     </subviews>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <color key="backgroundColor" red="0.7476917984" green="0.95947017769999998" blue="0.93763794109999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="2Wf-PM-dGM" firstAttribute="top" secondItem="n1L-wC-Elu" secondAttribute="top" id="AW3-ry-3QV"/>
-                        <constraint firstItem="2Wf-PM-dGM" firstAttribute="leading" secondItem="n1L-wC-Elu" secondAttribute="leading" id="ClS-DJ-WcE"/>
+                        <constraint firstItem="2Wf-PM-dGM" firstAttribute="leading" secondItem="n1L-wC-Elu" secondAttribute="leading" constant="15" id="ClS-DJ-WcE"/>
                         <constraint firstAttribute="trailing" secondItem="2Wf-PM-dGM" secondAttribute="trailing" id="rwg-R5-svT"/>
                         <constraint firstAttribute="bottom" secondItem="2Wf-PM-dGM" secondAttribute="bottom" constant="15" id="v94-Ts-gEy"/>
                     </constraints>
@@ -86,10 +108,7 @@
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
-            <point key="canvasLocation" x="286.5" y="-207.5"/>
+            <point key="canvasLocation" x="281.5" y="-145"/>
         </view>
     </objects>
-    <resources>
-        <image name="1" width="1334" height="750"/>
-    </resources>
 </document>

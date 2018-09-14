@@ -35,10 +35,10 @@
                                     </subviews>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="RyR-HH-SP0">
-                                    <rect key="frame" x="0.0" y="119" width="356" height="151"/>
+                                    <rect key="frame" x="0.0" y="119" width="356" height="200"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" placeholderIntrinsicWidth="327" placeholderIntrinsicHeight="115" translatesAutoresizingMaskIntoConstraints="NO" id="Yzh-En-HUw" customClass="VitalityStatusView" customModule="AIAHealthUI" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="0.0" width="340" height="151"/>
+                                            <rect key="frame" x="8" y="0.0" width="340" height="200"/>
                                             <color key="backgroundColor" red="0.65047583870000003" green="0.94003807110000004" blue="0.9349842693" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>
@@ -48,10 +48,10 @@
                                     </constraints>
                                 </stackView>
                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3u7-I8-QAX">
-                                    <rect key="frame" x="0.0" y="275" width="356" height="114"/>
+                                    <rect key="frame" x="0.0" y="324" width="356" height="65"/>
                                     <subviews>
                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OEy-a3-jwy" customClass="VitalityStatusBarView" customModule="AIAHealthUI" customModuleProvider="target">
-                                            <rect key="frame" x="8" y="0.0" width="340" height="114"/>
+                                            <rect key="frame" x="8" y="0.0" width="340" height="65"/>
                                             <color key="backgroundColor" red="1" green="0.98337477669999995" blue="0.65089731669999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </view>
                                     </subviews>

@@ -17,7 +17,16 @@ class ExpandedPlanAndBenefitsView: UIView{
     
     @IBOutlet weak var contentBorderView: UIView!
     
-    @IBOutlet weak var stackView: UIStackView!
+    
+    @IBOutlet weak var expandedImageView: UIImageView!
+    
+    @IBOutlet weak var expandedTitleLabel: UILabel!
+    
+    @IBOutlet weak var expandedBriefLabel: UILabel!
+    
+    @IBOutlet weak var bottomBorderView: UIView!
+    
+    
     override init(frame: CGRect) {
         super.init(frame: frame)
         commonInit()
